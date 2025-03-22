@@ -12,7 +12,7 @@ body, html {
 
 
   .purchase-interface {
-    background: linear-gradient(120deg, #ffffff, #ffffff, #ffffff);
+    background-color: #1C384E;
     border-radius: 25px;
     width: 380px;
     position: absolute;
@@ -32,14 +32,15 @@ body, html {
     display: flex; /* Usar display flex */
     flex-direction: column; /* Apilar los elementos uno encima del otro */
     align-items: center; /* Centrar los elementos horizontalmente */
-    width: 90px;
-    height: 70px;
+    width: 80px;
+    height: 50px;
     background-color: #2ecf84;
 }
 
 .value {
     font-size: 2em; /* Tamaño grande para el número */
     font-weight: bold; /* Texto en negrita */
+    font-size: 20px;
 }
 
 .indicator {
@@ -56,8 +57,7 @@ body, html {
 }
 
 .bar { 
-    height: 100%; 
-    background-color: #1fa361; 
+    background-color: #2ecf84; 
     height: 22px;
 }
 
@@ -83,7 +83,7 @@ body, html {
 
 .iconmodal-container .btn {
     margin-right: 10px; /* Espacio entre los botones (ajusta según sea necesario) */
-    color: rgb(0, 0, 0); /* Cambia el color del texto a blanco */
+    color: rgb(255, 255, 255); /* Cambia el color del texto a blanco */
 }
 
 
@@ -113,7 +113,7 @@ body, html {
 #direccion-5,
 #direccion-6 {
     font-size: 11px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center; /* Para centrar el contenido horizontalmente */
 }
 
@@ -126,8 +126,7 @@ body, html {
 
 .descripcion {
     font-size: 13px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center; /* Para centrar el contenido horizontalmente */
 }
 
@@ -167,14 +166,14 @@ body, html {
     justify-content: center;
     padding: 10px;
     border: none;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
 }
 
 .button-grid button:hover {
-    background-color: #000000; /* Cambia a gris oscuro al pasar el cursor */
+    background-color: #ffffff; /* Cambia a gris oscuro al pasar el cursor */
 }
 
 .button-grid img {
@@ -200,7 +199,7 @@ body, html {
     margin: 0 auto; /* Centrar horizontalmente */
     padding: 8px 12px; /* Ajustar relleno */
     font-size: 14px; /* Tamaño de fuente */
-    border: 1px solid #000000; /* Borde */
+    border: 1px solid #ffffff; /* Borde */
     border-radius: 50px; /* Borde redondeado */
     box-sizing: border-box; /* Incluir borde y relleno en el tamaño total */
 }
