@@ -6,7 +6,7 @@ function updateCountdown() {
     if (!targetDate || isNaN(new Date(targetDate))) {
         targetDate = new Date(); // Fecha actual
         targetDate.setDate(targetDate.getDate() + 1); // Sumar 4 días
-        targetDate.setHours(15); // Establecer las horas a 19:00
+        targetDate.setHours(11); // Establecer las horas a 19:00
         targetDate.setMinutes(57); // Establecer los minutos a 38
         targetDate.setSeconds(39); // Establecer los segundos a 26
         localStorage.setItem('targetDate', targetDate);
