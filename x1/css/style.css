@@ -12,7 +12,7 @@ body, html {
 
 
   .purchase-interface {
-    background: linear-gradient(120deg, #000000, #004177, #a0771d);
+    background: linear-gradient(120deg, #ffffff, #ffffff, #ffffff);
     border-radius: 25px;
     width: 400px;
     position: absolute;
@@ -83,7 +83,7 @@ body, html {
 
 .iconmodal-container .btn {
     margin-right: 10px; /* Espacio entre los botones (ajusta según sea necesario) */
-    color: white; /* Cambia el color del texto a blanco */
+    color: rgb(0, 0, 0); /* Cambia el color del texto a blanco */
 }
 
 
@@ -113,7 +113,7 @@ body, html {
 #direccion-5,
 #direccion-6 {
     font-size: 11px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center; /* Para centrar el contenido horizontalmente */
 }
 
@@ -127,7 +127,7 @@ body, html {
 .descripcion {
     font-size: 13px;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center; /* Para centrar el contenido horizontalmente */
 }
 
@@ -167,14 +167,14 @@ body, html {
     justify-content: center;
     padding: 10px;
     border: none;
-    background-color: #f0f0f0;
+    background-color: #000000;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
 }
 
 .button-grid button:hover {
-    background-color: #888888; /* Cambia a gris oscuro al pasar el cursor */
+    background-color: #000000; /* Cambia a gris oscuro al pasar el cursor */
 }
 
 .button-grid img {
@@ -200,7 +200,7 @@ body, html {
     margin: 0 auto; /* Centrar horizontalmente */
     padding: 8px 12px; /* Ajustar relleno */
     font-size: 14px; /* Tamaño de fuente */
-    border: 1px solid #ccc; /* Borde */
+    border: 1px solid #000000; /* Borde */
     border-radius: 50px; /* Borde redondeado */
     box-sizing: border-box; /* Incluir borde y relleno en el tamaño total */
 }
