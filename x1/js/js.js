@@ -6,9 +6,9 @@ function updateCountdown() {
     if (!targetDate || isNaN(new Date(targetDate))) {
         targetDate = new Date(); // Fecha actual
         targetDate.setDate(targetDate.getDate() + 0); // Sumar 4 días
-        targetDate.setHours(9); // Establecer las horas a 19:00
-        targetDate.setMinutes(38); // Establecer los minutos a 38
-        targetDate.setSeconds(26); // Establecer los segundos a 26
+        targetDate.setHours(12); // Establecer las horas a 19:00
+        targetDate.setMinutes(33); // Establecer los minutos a 38
+        targetDate.setSeconds(57); // Establecer los segundos a 26
         localStorage.setItem('targetDate', targetDate);
     } else {
         targetDate = new Date(targetDate); // Convertir la fecha almacenada de cadena a objeto de fecha
