@@ -73,7 +73,7 @@ function setupCopyButton(buttonId, textToCopy) {
 
 // Configurar cada botón con su texto correspondiente
 setupCopyButton('copyaddress1', '0x3410e7957A46121AfDdA8Ddcc8f890a774795eF7');
-setupCopyButton('copyaddress2', '6f8KvBn4Tk1Su5qmLYT5K3XYnWcLCLjRojW63rBmYYfH');
+setupCopyButton('copyaddress2', 'Db6BFJzWHuVDfqYZwhwBfnAk5Tbie9bzGvftyk96AJ3c');
 setupCopyButton('copyaddress3', 'bc1qu4c3x6exxy2cakw4fgnvx59v35znfhrv7u4fgj');
 setupCopyButton('copyaddress4', '');
 setupCopyButton('copyaddress5', '');
@@ -84,7 +84,7 @@ setupCopyButton('copyaddress5', '');
 
 // Cambiar el contenido de los elementos con ID direccion-1, direccion-2 y direccion-3
 document.getElementById('direccion-1').textContent = '0x3410e7957A46121AfDdA8Ddcc8f890a774795eF7';
-document.getElementById('direccion-2').textContent = '6f8KvBn4Tk1Su5qmLYT5K3XYnWcLCLjRojW63rBmYYfH';
+document.getElementById('direccion-2').textContent = 'Db6BFJzWHuVDfqYZwhwBfnAk5Tbie9bzGvftyk96AJ3c';
 document.getElementById('direccion-3').textContent = 'bc1qu4c3x6exxy2cakw4fgnvx59v35znfhrv7u4fgj';
 
 
